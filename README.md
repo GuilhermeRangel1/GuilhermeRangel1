@@ -6,10 +6,10 @@
 
 ## Sobre mim
 
-🛠️ Desenvolvedor **Backend** em construção.  
-🎓 Estudando **Ciência da Computação** (5º período) na CESAR School.  
-🌱 Focado em estruturação de arquiteturas limpas, desenvolvimento de APIs robustas e boas práticas de engenharia de software.  
-💼 Aberto a oportunidades de **estágio** e novos desafios técnicos.  
+🛠️ **Cientista de Dados** em construção
+🎓 Estudando **Ciência da Computação** (5º período) na CESAR School
+🌱 Focado em estruturação de arquiteturas limpas, desenvolvimento de APIs robustas e boas práticas de engenharia de software
+💼 Aberto a oportunidades de **estágio** e novos desafios técnicos
 
 
 ## Habilidades
