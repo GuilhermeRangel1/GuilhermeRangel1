@@ -7,7 +7,7 @@
 ## Sobre mim
 
 🛠️ **Cientista de Dados** em construção.  
-🎓 Estudando **Ciência da Computação** (5º período) na CESAR School.  
+🎓 Estudando **Ciência da Computação** (6º período) na CESAR School.  
 🌱 Focado em estruturação de arquiteturas limpas, desenvolvimento de APIs robustas e boas práticas de engenharia de software.  
 💼 Aberto a oportunidades de **estágio** e novos desafios técnicos.  
 
