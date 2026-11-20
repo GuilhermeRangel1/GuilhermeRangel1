@@ -1,15 +1,7 @@
 <h1 align="center">Olá! Meu nome é Guilherme 👋</h1>
 
 <p align="center">
-  <strong>Desenvolvimento com IA · Backend & Full Stack · Engenharia de Dados</strong><br />
-  Ciência da Computação na CESAR School
-</p>
-
-<p align="center">
-  <a href="https://github.com/GuilhermeRangel1/git-or-treat"><img alt="Codex" src="https://img.shields.io/badge/Codex-181717?style=for-the-badge" /></a>
-  <img alt="Agent Harnesses" src="https://img.shields.io/badge/Agent%20Harnesses-5B21B6?style=for-the-badge" />
-  <img alt="MCP" src="https://img.shields.io/badge/MCP-0F766E?style=for-the-badge" />
-  <img alt="Skills e Hooks" src="https://img.shields.io/badge/Skills%20%26%20Hooks-2563EB?style=for-the-badge" />
+  <img alt="Animação: desenvolvimento com IA, aplicações full stack e engenharia de dados" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;pause=1600&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Desenvolvimento+com+IA;Backend+%26+Full+Stack;Engenharia+de+Dados" />
 </p>
 
 ## Sobre mim
@@ -123,6 +115,7 @@
 
 | Projeto | O que desenvolvi / explorei |
 | --- | --- |
+| [CineData Fullstack](https://github.com/GuilhermeRangel1/CineData-Fullstack) | Aplicação full stack com FastAPI, React/TypeScript, SQLAlchemy e Alembic; autenticação, catálogo de filmes, recursos sociais e testes automatizados. |
 | [V-Energy Grid 360](https://github.com/GuilhermeRangel1/git-or-treat) | Harnesses de agentes, skills/MCPs/hooks, GenAI com evidências, APIs, frontend e engenharia de dados em um projeto colaborativo. |
 | [CineData Analytics Medallion](https://github.com/GuilhermeRangel1/CineData-Analytics-Medallion) | Pipeline Databricks/PySpark com Delta Lake, Unity Catalog e modelo dimensional. |
 | [CineData GenAI](https://github.com/GuilhermeRangel1/CineData-GenAi) | Aplicação full stack e assistente analítico com consultas SQL e integração de provedores de IA; evolução também na branch `prod`. |
@@ -133,7 +126,6 @@
 <details>
 <summary>Mais projetos: analytics, grafos, sistemas e jogos</summary>
 
-- [CineData Fullstack](https://github.com/GuilhermeRangel1/CineData-Fullstack): FastAPI, React/TypeScript, autenticação e catálogo de filmes.
 - [DataGraph](https://github.com/GuilhermeRangel1/DataGraph): grafos, Flask, React e visualização interativa.
 - [DengueRadar](https://github.com/GuilhermeRangel1/dengueradar): Streamlit, mapas e análise de dados.
 - [Auditoria Orçamentária do Recife](https://github.com/GuilhermeRangel1/recife-auditoria-orcamentaria): Python, SQL e Power BI.
