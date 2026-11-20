@@ -1,7 +1,7 @@
 <h1 align="center">Olá! Meu nome é Guilherme 👋</h1>
 
 <p align="center">
-  <img alt="Animação: desenvolvimento com IA, aplicações full stack e engenharia de dados" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;pause=1600&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Desenvolvimento+com+IA;Backend+%26+Full+Stack;Engenharia+de+Dados" />
+  <img alt="Agent Harness Engineering, Backend &amp; Full Stack, Data Engineering" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;pause=1600&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Agent+Harness+Engineering;Backend+%26+Full+Stack;Data+Engineering" />
 </p>
 
 ## Sobre mim
@@ -27,8 +27,6 @@
 - **Skills:** criação e adaptação de instruções para padrões de backend/frontend, prototipação no Figma, integração GenAI/Gold, avaliação e desenho de ferramentas.
 - **MCPs:** configuração de Context7, Figma e Trello; integração de documentação, design e organização do trabalho ao fluxo dos agentes.
 - **Hooks em Python:** prevenção de vazamento de segredos, formatação automática e quality gates; adaptação de eventos entre clientes e testes dos hooks no CI.
-
-↳ [Implementação e limites de validação no V-Energy Grid 360](https://github.com/GuilhermeRangel1/git-or-treat/blob/main/docs/agents/tooling.md). Skills externas têm suas origens registradas no projeto; configuração de um cliente não comprova validação completa de sua sessão.
 
 ### Backend & APIs ⌨️
 
