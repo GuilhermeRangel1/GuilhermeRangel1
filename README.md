@@ -23,10 +23,10 @@
 ![Skills](https://img.shields.io/badge/Skills-7C3AED?style=for-the-badge)
 ![Hooks](https://img.shields.io/badge/Hooks-2563EB?style=for-the-badge)
 
-- **Harnesses de projeto:** organização de `AGENTS.md` e `CLAUDE.md`, contexto por módulo, configuração versionada e fluxos de revisão e handoff.
-- **Skills:** criação e adaptação de instruções para padrões de backend/frontend, prototipação no Figma, integração GenAI/Gold, avaliação e desenho de ferramentas.
-- **MCPs:** configuração de Context7, Figma e Trello; integração de documentação, design e organização do trabalho ao fluxo dos agentes.
-- **Hooks em Python:** prevenção de vazamento de segredos, formatação automática e quality gates; adaptação de eventos entre clientes e testes dos hooks no CI.
+- **Harnesses:** instruções por projeto, contexto modular e fluxos de revisão.
+- **Skills:** padrões de desenvolvimento, prototipação e avaliação de agentes.
+- **MCPs:** integração de documentação, design e organização do trabalho.
+- **Hooks em Python:** proteção de segredos, formatação e verificações automatizadas no CI.
 
 ### Backend & APIs ⌨️
 
@@ -37,11 +37,11 @@
 ![C Sharp](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-- **Python:** FastAPI, Flask, Uvicorn, Pydantic, SQLAlchemy, Alembic e HTTPX; APIs assíncronas e migrações de banco.
-- **Java:** Spring Boot, Spring Security, Spring Data JPA, Hibernate, Maven, Lombok e Thymeleaf.
-- **C#/.NET:** ASP.NET Core Web API, Entity Framework Core, migrations e logs estruturados com Serilog.
-- **Integrações e contratos:** REST, OpenAPI/Swagger, JWT, autorização por perfil (RBAC), WebSocket/STOMP e consumo de APIs externas.
-- **Arquitetura:** separação em camadas, modelagem de domínio e organização modular.
+- **Python:** APIs com FastAPI/Flask, persistência e migrações.
+- **Java:** aplicações com Spring Boot, JPA e Spring Security.
+- **C#/.NET:** APIs com ASP.NET Core, Entity Framework e Serilog.
+- **Integrações:** REST, OpenAPI, JWT/RBAC, WebSocket e APIs externas.
+- **Arquitetura:** camadas, domínio e módulos.
 
 ### Frontend & Visualização Web 🎨
 
@@ -52,10 +52,10 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- HTML, CSS, React, TypeScript/JavaScript, Next.js, Vite, Tailwind CSS e Bootstrap.
-- React Router, TanStack Query, integração com APIs, estados de carregamento/erro e interfaces responsivas com temas claro e escuro.
-- Dashboards e visualizações com Recharts, Chart.js, D3, grafos interativos e mapas com Leaflet.
-- Prototipação, componentes e tokens no Figma, incluindo fluxo com Figma MCP.
+- HTML, CSS, React, TypeScript/JavaScript, Next.js, Vite, Tailwind e Bootstrap.
+- Integração com APIs, gerenciamento de estado e interfaces responsivas.
+- Dashboards, gráficos, grafos e mapas interativos.
+- Prototipação de interfaces e componentes no Figma.
 
 ### Engenharia de Dados, Bancos & Analytics 📊
 
@@ -67,11 +67,11 @@
 ![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge)
 
-- **Lakehouse:** Databricks, PySpark, Spark SQL, Delta Lake, Unity Catalog e Databricks Workflows.
-- **Pipelines:** ETL, arquitetura Medalhão (Bronze/Silver/Gold), ingestão de CSV/JSON/Excel e APIs, limpeza, tipagem, deduplicação e quarentena.
-- **Modelagem e qualidade:** modelo dimensional/Star Schema, tabelas fato/dimensão/ponte, reconciliação, linhagem e publicação por lote.
-- **Bancos e análise:** SQL, PostgreSQL, MySQL, SQLite, Pandas, NumPy, Jupyter, Matplotlib, Seaborn e Power BI.
-- **Aplicações analíticas:** Streamlit, Plotly, Folium e análise exploratória de dados.
+- **Lakehouse:** Databricks, PySpark, Delta Lake e Unity Catalog.
+- **Pipelines:** ETL, camadas Bronze/Silver/Gold e ingestão de arquivos e APIs.
+- **Modelagem e qualidade:** modelo dimensional, validação e linhagem de dados.
+- **Bancos e análise:** SQL, PostgreSQL, MySQL, Pandas, NumPy e Power BI.
+- **Aplicações analíticas:** Streamlit, Plotly, Folium e análise exploratória.
 
 ### GenAI, Agentes & Machine Learning 🧠
 
@@ -82,11 +82,11 @@
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 
-- **Agentes analíticos:** tool calling, interpretação de perguntas, consultas SQL com validação via SQLGlot, execução somente leitura e respostas fundamentadas em evidências.
-- **Integração de modelos:** Gemini (`google-genai`), Groq e OpenRouter, fallback entre provedores, limites de tempo e tratamento de falhas.
-- **Qualidade GenAI:** casos de avaliação, regressão sintética, contratos estruturados, guardrails e rastreabilidade de respostas.
-- **ML:** preparação de features temporais, classificação com KNN, Árvore de Decisão e Random Forest, baseline, busca de hiperparâmetros e validação temporal.
-- **Pipeline experimental:** orquestração com Airflow, registro de parâmetros/métricas/artefatos no MLflow e integração de inferência à aplicação.
+- **Agentes analíticos:** tool calling, SQL validado e respostas baseadas em evidências.
+- **Modelos:** Gemini, Groq e OpenRouter, com fallback e tratamento de falhas.
+- **Qualidade GenAI:** avaliações, guardrails e rastreabilidade das respostas.
+- **ML:** classificação, ajuste de modelos e validação temporal.
+- **Pipeline de ML:** Airflow, MLflow e integração de inferência.
 
 ### Testes, Qualidade & DevOps 🛠️
 
@@ -97,51 +97,53 @@
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
 
-- **Testes:** pytest/pytest-asyncio, JUnit, Mockito, Cucumber/Gherkin, xUnit, Vitest e React Testing Library.
-- **Qualidade:** Ruff, mypy, ESLint/Oxlint, TypeScript, Prettier e actionlint.
-- **Ambiente e CI:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions, checks por módulo, build e smoke tests de integração.
-- **Colaboração:** pull requests, revisão de código, documentação técnica, ADRs e organização do trabalho com Trello, Jira e Scrum.
+- **Testes:** pytest, JUnit, Mockito, Cucumber, xUnit e Vitest.
+- **Qualidade:** Ruff, mypy, ESLint, TypeScript, Prettier e actionlint.
+- **Ambiente e CI:** Docker, Nginx, GitHub Actions, builds e testes de integração.
+- **Colaboração:** revisão de código, documentação e organização ágil.
 
 ### Sistemas Distribuídos, Redes & Outros Projetos 🌐
 
-- Microsserviços com FastAPI, API Gateway, heartbeat, replicação síncrona e comunicação TLS/HTTPS em ambiente demonstrativo.
-- Integração de telemetria com MQTT, Eclipse Mosquitto, Paho MQTT e persistência de leituras no AquaFlow.
-- Sockets em Python, Go-Back-N, Repetição Seletiva e criptografia com a biblioteca `cryptography`.
-- Jogos e aplicações de terminal com **C/raylib**, **Python/Pygame** e **curses**; estruturas de dados e algoritmos de grafos.
+- Microsserviços com API Gateway, replicação e comunicação TLS/HTTPS.
+- Telemetria MQTT e persistência de dados no AquaFlow.
+- Sockets, protocolos de retransmissão e criptografia em Python.
+- Jogos em C e Python, aplicações de terminal e algoritmos de grafos.
 
 ## Projetos em destaque 🚀
 
-| Projeto | O que desenvolvi / explorei |
-| --- | --- |
-| [CineData Fullstack](https://github.com/GuilhermeRangel1/CineData-Fullstack) | Aplicação full stack com FastAPI, React/TypeScript, SQLAlchemy e Alembic; autenticação, catálogo de filmes, recursos sociais e testes automatizados. |
-| [V-Energy Grid 360](https://github.com/GuilhermeRangel1/git-or-treat) | Harnesses de agentes, skills/MCPs/hooks, GenAI com evidências, APIs, frontend e engenharia de dados em um projeto colaborativo. |
-| [CineData Analytics Medallion](https://github.com/GuilhermeRangel1/CineData-Analytics-Medallion) | Pipeline Databricks/PySpark com Delta Lake, Unity Catalog e modelo dimensional. |
-| [CineData GenAI](https://github.com/GuilhermeRangel1/CineData-GenAi) | Aplicação full stack e assistente analítico com consultas SQL e integração de provedores de IA; evolução também na branch `prod`. |
-| [AquaFlow](https://github.com/GuilhermeRangel1/aquaflow) | API, dashboard, ingestão MQTT e pipeline experimental de ML com Airflow e MLflow, em projeto colaborativo. |
-| [UBSFlow](https://github.com/GuilhermeRangel1/UBSFlow) | ASP.NET Core, Entity Framework Core, PostgreSQL, React, JWT/RBAC e testes xUnit. |
-| [TelaScore](https://github.com/GuilhermeRangel1/TelaScore) | Projeto colaborativo com Java/Spring, arquitetura modular, React e testes JUnit/Cucumber. |
+### CineData — aplicações, dados e IA
+
+**[CineData Fullstack](https://github.com/GuilhermeRangel1/CineData-Fullstack)** — Aplicação de catálogo de filmes com autenticação, recursos sociais e testes. `FastAPI` · `React` · `TypeScript` · `SQLAlchemy`
+
+**[CineData Analytics Medallion](https://github.com/GuilhermeRangel1/CineData-Analytics-Medallion)** — Pipeline Bronze/Silver/Gold com Delta Lake e modelo dimensional. `Databricks` · `PySpark` · `Unity Catalog`
+
+**[CineData GenAI](https://github.com/GuilhermeRangel1/CineData-GenAi)** — Assistente analítico com perguntas em linguagem natural, validação de SQL e respostas baseadas nos resultados. `GenAI` · `SQLGlot` · `Python`
 
 <details>
-<summary>Mais projetos: analytics, grafos, sistemas e jogos</summary>
+<summary>Mais projetos</summary>
 
-- [DataGraph](https://github.com/GuilhermeRangel1/DataGraph): grafos, Flask, React e visualização interativa.
-- [DengueRadar](https://github.com/GuilhermeRangel1/dengueradar): Streamlit, mapas e análise de dados.
-- [Auditoria Orçamentária do Recife](https://github.com/GuilhermeRangel1/recife-auditoria-orcamentaria): Python, SQL e Power BI.
-- [Análise de Conversão de E-commerce](https://github.com/GuilhermeRangel1/analise-conversao-ecommerce): análise exploratória em notebook.
-- [E-commerce Distribuído](https://github.com/GuilhermeRangel1/distributed-ecommerce-fastapi): microsserviços, gateway, replicação e TLS.
-- [BRASFI](https://github.com/GuilhermeRangel1/BRASFI): Spring Boot, React e comunicação WebSocket.
-- [Projeto de Banco de Dados](https://github.com/GuilhermeRangel1/projeto_bd): aplicação de streaming com Java, React e SQL.
-- [Projeto de Redes](https://github.com/GuilhermeRangel1/Projeto-redes): comunicação confiável e criptografia.
-- [AC20251](https://github.com/GuilhermeRangel1/AC20251): orientação a objetos e testes em Java.
-- [Qix](https://github.com/GuilhermeRangel1/Qix) e [NieR-2D](https://github.com/GuilhermeRangel1/NieR-2D): jogos em C.
-- [Jogo Estatística](https://github.com/GuilhermeRangel1/Jogo_Estatistica) e [LogoTurtle.py](https://github.com/GuilhermeRangel1/LogoTurtle.py): jogos e interface de terminal em Python.
+- [V-Energy Grid 360](https://github.com/GuilhermeRangel1/git-or-treat) — projeto colaborativo com agentes, GenAI, APIs e dados.
+- [AquaFlow](https://github.com/GuilhermeRangel1/aquaflow) — API, dashboard, MQTT e experimentos de ML.
+- [UBSFlow](https://github.com/GuilhermeRangel1/UBSFlow) — aplicação web com ASP.NET Core, PostgreSQL e React.
+- [TelaScore](https://github.com/GuilhermeRangel1/TelaScore) — aplicação colaborativa com Java/Spring e React.
+- [DataGraph](https://github.com/GuilhermeRangel1/DataGraph) — grafos e visualização interativa.
+- [DengueRadar](https://github.com/GuilhermeRangel1/dengueradar) — análise de dados e mapas.
+- [Auditoria Orçamentária do Recife](https://github.com/GuilhermeRangel1/recife-auditoria-orcamentaria) — análise com Python, SQL e Power BI.
+- [Análise de Conversão de E-commerce](https://github.com/GuilhermeRangel1/analise-conversao-ecommerce) — análise exploratória de dados.
+- [E-commerce Distribuído](https://github.com/GuilhermeRangel1/distributed-ecommerce-fastapi) — microsserviços, replicação e TLS.
+- [BRASFI](https://github.com/GuilhermeRangel1/BRASFI) — Spring Boot, React e WebSocket.
+- [Projeto de Banco de Dados](https://github.com/GuilhermeRangel1/projeto_bd) — aplicação de streaming com Java, React e SQL.
+- [Projeto de Redes](https://github.com/GuilhermeRangel1/Projeto-redes) — comunicação confiável e criptografia.
+- [AC20251](https://github.com/GuilhermeRangel1/AC20251) — orientação a objetos e testes em Java.
+- [Qix](https://github.com/GuilhermeRangel1/Qix) e [NieR-2D](https://github.com/GuilhermeRangel1/NieR-2D) — jogos em C.
+- [Jogo Estatística](https://github.com/GuilhermeRangel1/Jogo_Estatistica) e [LogoTurtle.py](https://github.com/GuilhermeRangel1/LogoTurtle.py) — projetos em Python.
 
 </details>
 
 ---
-
 ## Estatísticas GitHub 📊
 
 <p align="center">
   <img alt="Sequência de contribuições no GitHub" src="https://github-readme-streak-stats.herokuapp.com/?user=GuilhermeRangel1&theme=dark&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" />
 </p>
+
